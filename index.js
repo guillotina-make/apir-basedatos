@@ -5,6 +5,8 @@ const app = express()
 
 app.get('/ping', (req, res) => res.send('pong'));
 
+app.get('/jose', (req, res) => res.send('guillermo'));
+
 
 app.get('/employees', (req, res) => res.send('Obteniendo Empleados'))
 
